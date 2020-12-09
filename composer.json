@@ -1,0 +1,27 @@
+{
+    "name": "prodaric/sandbox",
+    "description": "Laravel Package for Prodaric Framework on sandbox",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neftalí Yagua",
+            "email": "despacho@neftaliyagua.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prodaric\\Sandbox\\SandboxServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Prodaric\\Sandbox\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
